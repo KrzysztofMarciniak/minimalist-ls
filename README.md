@@ -5,12 +5,6 @@ $ size bin/mls
    text    data     bss     dec     hex filename
    5456     704      16    6176    1820 bin/mls
 ```
-in comparison with ls:
-```bash
-$ size $(which ls)
-   text    data     bss     dec     hex filename
-1279598   17084    2352 1299034  13d25a /usr/bin/ls
-```
 usage:
 ```bash
 $ mls
